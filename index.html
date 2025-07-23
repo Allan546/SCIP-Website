@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #0d6efd;
+            color: white;
+            padding: 20px 40px;
+            text-align: center;
+        }
+        nav {
+            background-color: #003f88;
+            padding: 10px 40px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px;
+        }
+        .portfolio-item {
+            display: inline-block;
+            width: 30%;
+            margin: 1.5%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .portfolio-item img {
+            max-width: 100%;
+        }
+        footer {
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Acme Corporation</h1>
+        <p>Your trusted partner in digital innovation</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Acme Corporation is a leading provider of digital solutions, helping businesses transform through innovation and technology. With over 10 years of experience, we specialize in delivering tailored solutions that drive results.</p>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Mobile App Design</li>
+            <li>UI/UX Consulting</li>
+            <li>Cloud Integration</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2>Our Work</h2>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200" alt="Project 1">
+            <h3>Project One</h3>
+            <p>Custom e-commerce platform for retail brand.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200" alt="Project 2">
+            <h3>Project Two</h3>
+            <p>Mobile app for food delivery startup.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="https://via.placeholder.com/300x200" alt="Project 3">
+            <h3>Project Three</h3>
+            <p>Corporate website redesign for financial firm.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: contact@acmecorp.com</p>
+        <p>Phone: +1 (555) 123-4567</p>
+        <p>Address: 123 Business Avenue, New York, NY</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Acme Corporation. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
